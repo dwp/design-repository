@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  DWP Design Repository
+{% endblock %}
+
+{% block content %}
+<div id="big-bar">
+  <div class="big-bar-wrapper">
+    <div class="grid-row">
+      <div class="column-two-thirds fl"><h1 class="heading-xlarge no-margin">Posters</h1></div>
+      <div class="column-one-third fr"><a href="mailto:artworkrequest.digitaldwp@gmail.com?Subject=Poster%20request" class="white-button fr">Request a poster</a></div>
+    </div>
+</div>
+</div>
+<main id="content" role="main">
+
+  <div class="grid-row sticker-list">
+    <div class="column-quarter column-one-quarter">
+      <a href="/posters/ask-what-people-do.html"><img class="poster" src="/public/images/posters/ask-what-people-do.png"/></a>
+    </div>
+
+    <div class="column-one-quarter">
+      <a href="/posters/creating-a-digital-delivery-culture.html"><img class="poster" src="/public/images/posters/creating-a-digital-delivery-culture.png"/></a>
+    </div>
+
+    <div class="column-one-quarter">
+      <a href="/posters/content-design-principles.html"><img class="poster" src="/public/images/posters/dwp-content-design-principles.png"/></a>
+    </div>
+
+    <div class="column-one-quarter">
+      <a href="/posters/frame-the-problem.html"><img class="poster" src="/public/images/posters/framing-the-problem.png"/></a>
+    </div>
+  </div>
+
+  <div class="grid-row sticker-list">
+    <div class="column-quarter column-one-quarter">
+      <a href="/posters/the-test-of-a-good-user-need.html"><img class="poster" src="/public/images/posters/the-test-of-a-good-user-need.png"/></a>
+    </div>
+  </div>
+</main>
+
+{% endblock %}
