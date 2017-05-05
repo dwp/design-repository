@@ -1,27 +1,17 @@
-# GOV.UK Prototype kit
+# DWP Design Repository
 
-Go to the [GOV.UK Prototype Kit site](https://govuk-prototype-kit.herokuapp.com/docs) to download the latest version and read the documentation.
+The design repository is a collection of mission patches, posters and stickers that have been created and shared accross the department.
 
-## About the prototype kit
+## Contributing
 
-The prototype kit provides a simple way to make interactive prototypes that look like pages on GOV.UK. These prototypes can be used to show ideas to people you work with, and to do user research.
+If you have a sticker you want to add, you will need to zip the print ready files, add a .html page to the views folder and add it to the list on the gallery page.
 
-Read the [project principles](https://govuk-prototype-kit.herokuapp.com/docs/principles).
+### File names
 
-## Security
+File names should be consistent. The .html file should match the preview image, and the zip file should also match followed by the type of resource it is.
 
-If you publish your prototypes online, they **must** be protected by a [username and password](https://govuk-prototype-kit.herokuapp.com/docs/publishing-on-heroku). This is to prevent members of the public finding prototypes and thinking they are real services.
+eg:
 
-You must protect user privacy at all times, even when using prototypes. Prototypes made with the kit look like GOV.UK, but do not have the same security provisions. Always make sure you are handling user data appropriately.
-
-## Installation instructions
-
-- [Installation guide for new users (non technical)](https://govuk-prototype-kit.herokuapp.com/docs/install/introduction)
-- [Installation guide for developers (technical)](https://govuk-prototype-kit.herokuapp.com/docs/install/developer-install-instructions)
-
-## Community
-
-We have two Slack channels for the Prototype kit. You'll need a government email address to join them.
-
-* [Slack channel for users of the prototype kit](https://ukgovernmentdigital.slack.com/messages/prototype-kit/)
-* [Slack channel for developers of the prototype kit](https://ukgovernmentdigital.slack.com/messages/prototype-kit-dev/)
+`dwp-dinosaur.html` - the page  
+`dwp-dinosaur.png` - the preview image  
+`dwp-dinosaur-sticker.zip` - the print ready files
